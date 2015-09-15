@@ -1,0 +1,89 @@
+body {
+  margin: 2rem !important;
+  page-break-after: always;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: 'Open Sans', sans-serif;
+  color: #606060 !important;
+}
+
+h3 {
+  color: #4A75D4 !important;
+}
+
+.large-8 .listing {
+  border-left: 4px solid #606060;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.large-4 .listing {
+  margin-top: 1rem;
+}
+
+.subtitle {
+  color: #606060 !important;
+}
+
+.summary {
+  margin: 5px 0;
+}
+
+.tool-group + .tool-group {
+  margin-top: 1rem;
+}
+
+ul {
+  margin: 0 0 0 2rem;
+}
+
+.large-4 ul {
+  margin-left: 0;
+}
+
+li {
+  margin: 4px 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.large-8 li:before {
+  content: '\2022 ';
+  color: #606060;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -7px;
+  left: -18px;
+}
+
+i {
+  width: 1.5rem;
+  color: #4A75D4 !important;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0;
+}

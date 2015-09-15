@@ -178,249 +178,248 @@ select {
 .columns.end {
   float: left; }
 
-@media only screen {
-  .small-push-0 {
-    position: relative;
-    left: 0;
-    right: auto; }
+.small-push-0 {
+  position: relative;
+  left: 0;
+  right: auto; }
 
-  .small-pull-0 {
-    position: relative;
-    right: 0;
-    left: auto; }
+.small-pull-0 {
+  position: relative;
+  right: 0;
+  left: auto; }
 
-  .small-push-1 {
-    position: relative;
-    left: 8.33333%;
-    right: auto; }
+.small-push-1 {
+  position: relative;
+  left: 8.33333%;
+  right: auto; }
 
-  .small-pull-1 {
-    position: relative;
-    right: 8.33333%;
-    left: auto; }
+.small-pull-1 {
+  position: relative;
+  right: 8.33333%;
+  left: auto; }
 
-  .small-push-2 {
-    position: relative;
-    left: 16.66667%;
-    right: auto; }
+.small-push-2 {
+  position: relative;
+  left: 16.66667%;
+  right: auto; }
 
-  .small-pull-2 {
-    position: relative;
-    right: 16.66667%;
-    left: auto; }
+.small-pull-2 {
+  position: relative;
+  right: 16.66667%;
+  left: auto; }
 
-  .small-push-3 {
-    position: relative;
-    left: 25%;
-    right: auto; }
+.small-push-3 {
+  position: relative;
+  left: 25%;
+  right: auto; }
 
-  .small-pull-3 {
-    position: relative;
-    right: 25%;
-    left: auto; }
+.small-pull-3 {
+  position: relative;
+  right: 25%;
+  left: auto; }
 
-  .small-push-4 {
-    position: relative;
-    left: 33.33333%;
-    right: auto; }
+.small-push-4 {
+  position: relative;
+  left: 33.33333%;
+  right: auto; }
 
-  .small-pull-4 {
-    position: relative;
-    right: 33.33333%;
-    left: auto; }
+.small-pull-4 {
+  position: relative;
+  right: 33.33333%;
+  left: auto; }
 
-  .small-push-5 {
-    position: relative;
-    left: 41.66667%;
-    right: auto; }
+.small-push-5 {
+  position: relative;
+  left: 41.66667%;
+  right: auto; }
 
-  .small-pull-5 {
-    position: relative;
-    right: 41.66667%;
-    left: auto; }
+.small-pull-5 {
+  position: relative;
+  right: 41.66667%;
+  left: auto; }
 
-  .small-push-6 {
-    position: relative;
-    left: 50%;
-    right: auto; }
+.small-push-6 {
+  position: relative;
+  left: 50%;
+  right: auto; }
 
-  .small-pull-6 {
-    position: relative;
-    right: 50%;
-    left: auto; }
+.small-pull-6 {
+  position: relative;
+  right: 50%;
+  left: auto; }
 
-  .small-push-7 {
-    position: relative;
-    left: 58.33333%;
-    right: auto; }
+.small-push-7 {
+  position: relative;
+  left: 58.33333%;
+  right: auto; }
 
-  .small-pull-7 {
-    position: relative;
-    right: 58.33333%;
-    left: auto; }
+.small-pull-7 {
+  position: relative;
+  right: 58.33333%;
+  left: auto; }
 
-  .small-push-8 {
-    position: relative;
-    left: 66.66667%;
-    right: auto; }
+.small-push-8 {
+  position: relative;
+  left: 66.66667%;
+  right: auto; }
 
-  .small-pull-8 {
-    position: relative;
-    right: 66.66667%;
-    left: auto; }
+.small-pull-8 {
+  position: relative;
+  right: 66.66667%;
+  left: auto; }
 
-  .small-push-9 {
-    position: relative;
-    left: 75%;
-    right: auto; }
+.small-push-9 {
+  position: relative;
+  left: 75%;
+  right: auto; }
 
-  .small-pull-9 {
-    position: relative;
-    right: 75%;
-    left: auto; }
+.small-pull-9 {
+  position: relative;
+  right: 75%;
+  left: auto; }
 
-  .small-push-10 {
-    position: relative;
-    left: 83.33333%;
-    right: auto; }
+.small-push-10 {
+  position: relative;
+  left: 83.33333%;
+  right: auto; }
 
-  .small-pull-10 {
-    position: relative;
-    right: 83.33333%;
-    left: auto; }
+.small-pull-10 {
+  position: relative;
+  right: 83.33333%;
+  left: auto; }
 
-  .small-push-11 {
-    position: relative;
-    left: 91.66667%;
-    right: auto; }
+.small-push-11 {
+  position: relative;
+  left: 91.66667%;
+  right: auto; }
 
-  .small-pull-11 {
-    position: relative;
-    right: 91.66667%;
-    left: auto; }
+.small-pull-11 {
+  position: relative;
+  right: 91.66667%;
+  left: auto; }
 
-  .column,
-  .columns {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    float: left; }
+.column,
+.columns {
+  position: relative;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  float: left; }
 
-  .small-1 {
-    width: 8.33333%; }
+.small-1 {
+  width: 8.33333%; }
 
-  .small-2 {
-    width: 16.66667%; }
+.small-2 {
+  width: 16.66667%; }
 
-  .small-3 {
-    width: 25%; }
+.small-3 {
+  width: 25%; }
 
-  .small-4 {
-    width: 33.33333%; }
+.small-4 {
+  width: 33.33333%; }
 
-  .small-5 {
-    width: 41.66667%; }
+.small-5 {
+  width: 41.66667%; }
 
-  .small-6 {
-    width: 50%; }
+.small-6 {
+  width: 50%; }
 
-  .small-7 {
-    width: 58.33333%; }
+.small-7 {
+  width: 58.33333%; }
 
-  .small-8 {
-    width: 66.66667%; }
+.small-8 {
+  width: 66.66667%; }
 
-  .small-9 {
-    width: 75%; }
+.small-9 {
+  width: 75%; }
 
-  .small-10 {
-    width: 83.33333%; }
+.small-10 {
+  width: 83.33333%; }
 
-  .small-11 {
-    width: 91.66667%; }
+.small-11 {
+  width: 91.66667%; }
 
-  .small-12 {
-    width: 100%; }
+.small-12 {
+  width: 100%; }
 
-  .small-offset-0 {
-    margin-left: 0 !important; }
+.small-offset-0 {
+  margin-left: 0 !important; }
 
-  .small-offset-1 {
-    margin-left: 8.33333% !important; }
+.small-offset-1 {
+  margin-left: 8.33333% !important; }
 
-  .small-offset-2 {
-    margin-left: 16.66667% !important; }
+.small-offset-2 {
+  margin-left: 16.66667% !important; }
 
-  .small-offset-3 {
-    margin-left: 25% !important; }
+.small-offset-3 {
+  margin-left: 25% !important; }
 
-  .small-offset-4 {
-    margin-left: 33.33333% !important; }
+.small-offset-4 {
+  margin-left: 33.33333% !important; }
 
-  .small-offset-5 {
-    margin-left: 41.66667% !important; }
+.small-offset-5 {
+  margin-left: 41.66667% !important; }
 
-  .small-offset-6 {
-    margin-left: 50% !important; }
+.small-offset-6 {
+  margin-left: 50% !important; }
 
-  .small-offset-7 {
-    margin-left: 58.33333% !important; }
+.small-offset-7 {
+  margin-left: 58.33333% !important; }
 
-  .small-offset-8 {
-    margin-left: 66.66667% !important; }
+.small-offset-8 {
+  margin-left: 66.66667% !important; }
 
-  .small-offset-9 {
-    margin-left: 75% !important; }
+.small-offset-9 {
+  margin-left: 75% !important; }
 
-  .small-offset-10 {
-    margin-left: 83.33333% !important; }
+.small-offset-10 {
+  margin-left: 83.33333% !important; }
 
-  .small-offset-11 {
-    margin-left: 91.66667% !important; }
+.small-offset-11 {
+  margin-left: 91.66667% !important; }
 
-  .small-reset-order {
-    float: left;
-    left: auto;
-    margin-left: 0;
-    margin-right: 0;
-    right: auto; }
+.small-reset-order {
+  float: left;
+  left: auto;
+  margin-left: 0;
+  margin-right: 0;
+  right: auto; }
 
-  .column.small-centered,
-  .columns.small-centered {
-    margin-left: auto;
-    margin-right: auto;
-    float: none; }
+.column.small-centered,
+.columns.small-centered {
+  margin-left: auto;
+  margin-right: auto;
+  float: none; }
 
-  .column.small-uncentered,
-  .columns.small-uncentered {
-    float: left;
-    margin-left: 0;
-    margin-right: 0; }
+.column.small-uncentered,
+.columns.small-uncentered {
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
 
-  .column.small-centered:last-child,
-  .columns.small-centered:last-child {
-    float: none; }
+.column.small-centered:last-child,
+.columns.small-centered:last-child {
+  float: none; }
 
-  .column.small-uncentered:last-child,
-  .columns.small-uncentered:last-child {
-    float: left; }
+.column.small-uncentered:last-child,
+.columns.small-uncentered:last-child {
+  float: left; }
 
-  .column.small-uncentered.opposite,
-  .columns.small-uncentered.opposite {
-    float: right; }
+.column.small-uncentered.opposite,
+.columns.small-uncentered.opposite {
+  float: right; }
 
-  .row.small-collapse > .column,
-  .row.small-collapse > .columns {
-    padding-left: 0;
-    padding-right: 0; }
-  .row.small-collapse .row {
-    margin-left: 0;
-    margin-right: 0; }
-  .row.small-uncollapse > .column,
-  .row.small-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    float: left; } }
+.row.small-collapse > .column,
+.row.small-collapse > .columns {
+  padding-left: 0;
+  padding-right: 0; }
+.row.small-collapse .row {
+  margin-left: 0;
+  margin-right: 0; }
+.row.small-uncollapse > .column,
+.row.small-uncollapse > .columns {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  float: left; }
 @media only screen and (min-width: 40.0625em) {
   .medium-push-0 {
     position: relative;

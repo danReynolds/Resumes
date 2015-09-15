@@ -1,36 +1,185 @@
 <html>
   <head>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' href='css/foundation.css' />
     <link rel='stylesheet' type='text/css' href='css/normalize.css' />
-    <link rel='stylesheet' type='text/css' href='resume.css' />
+    <link rel='stylesheet' type='text/css' href='style.css' />
   </head>
   <body>
     <header>
       <div class='row'>
-        <div class='columns large-12'>
+        <div class='columns large-12 small-12'>
           <h1>Dan Reynolds</h1>
         </div>
       </div>
     </header>
 
-    <section class='content'>
-      <div class='row work-experience'>
-        <div class='columns large-8'>
-          <h2>Work Experience</h2>
+    <main>
+      <div class='row'>
+        <div class='columns large-8 small-8 medium-8'>
+          <div class='row'>
+            <div class='columns large-12'>
+              <h2>Work Experience</h2>
 
-          <div class='job'>
-            <div class='title'>
-              <strong>Boltmade</strong>
+              <div class='listing'>
+                <div class='title'>
+                  <h3>Boltmade</h3>
+                  <div class='subtitle'>Web Developer - 20 months</div>
+                </div>
+                <div class='summary'>
+                  <ul>
+                    <li>
+                      Grew with Boltmade, working closely with clients of the startup company to design and develop web applications.
+                    </li>
+                    <li>
+                      Worked on two-to-three person teams in an Agile process that began with product design sessions,
+                      followed by weekly development sprints and client meetings to review progress and iterate on the product.
+                    </li>
+                    <li>
+                      Built web applications using Ruby on Rails and JavaScript frameworks as stand-alone and integrated applications for different clients.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class='listing'>
+                <div class='title'>
+                  <h3>York University</h3>
+                  <div class='subtitle'>Research Student - 4 months</div>
+                </div>
+                <div class='summary'>
+                  <ul>
+                    <li>
+                      Moved data for several thousand Greek imprints to a public database as part of the Athenian's Project to preserve and share the history of the people of Ancient Athens.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class='description'>
-              At Boltmade, I worked on many projects to implement solutions for things that people did.
+          </div>
+
+          <div class='row'>
+            <div class='columns large-12'>
+              <h2>Projects</h2>
+
+              <div class='listing'>
+                <div class='title'>
+                  <h3>SupermarKit</h3>
+                  <div class='subtitle'>Grocery Shopping Platform</div>
+                </div>
+                <div class='summary'>
+                  <ul>
+                    <li>
+                      Rails 4.2 web application designed to simplify the grocery shopping process.
+                    </li>
+                    <li>
+                      Allows users to form shopping groups and add grocery items to their lists from the pool of items shared by the community.
+                    </li>
+                    <li>
+                      Uses Google Maps API to calculate estimated item prices based on shopping location, and a recipe API to deliver food options based on a user's current list.
+                  </ul>
+                </div>
+              </div>
+
+              <div class='listing'>
+                <div class='title'>
+                  <h3>Splash</h3>
+                  <div class='subtitle'>Unix Shell written in Rust</div>
+                </div>
+                <div class='summary'>
+                  <ul>
+                    <li>
+                      Worked on a team of two to design a basic shell written in the Rust systems programming language.
+                    </li>
+                    <li>
+                      Implements basic support for a small subset of the builtin commands found in popular shells like Bash or Zsh.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='columns large-4 small-4 medium-4'>
+          <div class='row'>
+            <div class='columns large-12'>
+              <h2>Tools</h2>
+              <div class='listing'>
+                <div class='tool-group'>
+                    <h3>Languages:</h3>
+
+                    <div>
+                      C, Java, JavaScript, Ruby, Rust, HTML, Slim, CSS, SASS
+                    </div>
+                </div>
+                <div class='tool-group'>
+                  <h3>Libraries:</h3>
+                  <div>
+                    React, JQuery, Bourbon
+                  </div>
+                </div>
+                <div class='tool-group'>
+                  <h3>Frameworks:</h3>
+                  <div>
+                    Ruby on Rails, Node.js, Volt, Bootstrap, Foundation
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class='row social'>
+            <div class='columns large-12'>
+              <div class='listing'>
+                <h2>Social</h2>
+                <ul>
+                  <li>
+                    <i class='fa fa-globe'></i>
+                    danreynolds.ca
+                  </li>
+                  <li>
+                    <i class='fa fa-envelope'></i>
+                    me@danreynolds.ca
+                  </li>
+                  <li>
+                    <i class='fa fa-github'></i>
+                    github.com/danReynolds
+                  </li>
+                  <li>
+                    <i class='fa fa-twitter'></i>
+                    twitter.com/theDerivative
+                  </li>
+                  <li>
+                    <i class='fa fa-phone'></i>
+                    289-400-3245
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='columns large-12'>
+              <div class='listing'>
+                <h2>Favourite Course</h2>
+                CS350 - Operating Systems
+              </div>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='columns large-12'>
+              <div class='listing'>
+                <h2>Hobbies</h2>
+                <ul>
+                  <li>Ultimate Frisbee</li>
+                  <li>Local Developer Events</li>
+                  <li>Making Crepes</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-
-  </body>
 </html>
