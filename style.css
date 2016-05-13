@@ -20,6 +20,10 @@ h3 {
   margin-bottom: 2rem;
 }
 
+.projects .listing {
+  border-left-color: #909090;
+}
+
 .large-4 .listing {
   margin-top: 1rem;
 }
